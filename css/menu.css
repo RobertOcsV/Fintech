@@ -1,0 +1,89 @@
+
+
+.customize-color{
+    background-color: #003399;
+
+}
+
+.customize-button:hover{
+    background-color: #003399;
+    border-color: #003399
+}
+
+.fundo-cor-branca{
+    color: #ffffff;
+
+}
+
+.fundo-cor-branca:hover{
+    color:#29B3D1;
+
+}
+
+.fundo-menu-imagem{
+    vertical-align: baseline;
+    height: 40vw;
+    width: 100%;
+   
+
+}
+
+.margem-top{
+    margin-top:1%;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background-image: url("../img/banner_index.jpg");
+  color: white;
+}
+
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px;
+  text-decoration: none; 
+}
+
+.btn-bgstroke:hover {
+  background-color: white;
+  transition: 0.5s;
+  color: #33cccc;
+}
+
+.btn-bgstroke{
+    color:#33cccc ;
+    border-color:#33cccc;
+}
+
